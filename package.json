@@ -1,0 +1,24 @@
+{
+  "name": "abv-bc-session3",
+  "version": "1.0.0",
+  "description": "Andela Bootcamp home session 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_packages/.bin/jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nedemenang/abv-bc-session3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nedemenang/abv-bc-session3/issues"
+  },
+  "homepage": "https://github.com/nedemenang/abv-bc-session3#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "jasmine-node": "^1.14.5",
+    "request": "^2.81.0"
+  }
+}
