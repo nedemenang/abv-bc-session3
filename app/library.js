@@ -10,11 +10,12 @@ reverseString: (str) =>
 	    }
 	    
 	    var newString = "";
+	    str = str.toLowerCase();
 	    for (var i = str.length - 1; i >= 0; i--) {
 	        newString += str[i];
 	    }
 	    
-	    if (str == newString)
+	    if (str.toLowerCase() == newString.toLowerCase())
 	    {
 	      return true;
 	    }
